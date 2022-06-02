@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background:white;
+  box-shadow: 2px 2px;
+  font-family: 'Montserrat', sans-serif;
+  }
+  .menu{
+      width: 100px;
+      display: none;
+      justify-content: center;
+      align-items: center;
+  }
+  .menu img{
+    width: 50px;
+  }
+  .treslinhas{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  .portflow{
+    padding:20px;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav{
+    width:60%;
+  }
+  main{   
+    width: 100%;
+  }
+  .orange{
+    background-image:url("./Imagens/Blue.orange.png");
+    background-size:cover;
+    width:100%;
+    height:40em;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+  }
+  div{
+    margin-left:5em;
+  }
+  .titulo{
+    font-size: 70px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .contato{
+    font-size: 50px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .columns{
+    width: 100%;
+    height:50em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   }
+  .column1{
+    height:20em;
+    width:80em;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .column2{
+    height:20em;
+    width:80em;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .column3{
+    height:20em;
+    width:80em;
+    display:flex;
+    justify-content:space-evenly;
+    padding-left: 10px;
+  }
+  figure{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }   
+  img{
+    width:15%;
+  }
+  .final{
+    width:100%;
+    height: 5em;
+    padding:5em;
+    background-color:grey
+  }
+  @media (max-width: 1000px){
+    .headerul {
+      width: 90%;
+    }
+    .navmenu{
+      width: 80%;
+    }
+  @media (max-width: 700px) {
+    .menu {
+        display: flex;
+    }
+    .menu {
+      width: 100px;
+    }
+    .navmenu{
+      display: none;
+    }
+    .headerul{
+    }
+    .portflow{
+      display: none;
+    }
